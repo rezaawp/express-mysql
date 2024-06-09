@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "express-mysql",
+    "dateExported": "2024-06-09T13:57:19.850Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0a5cf829-e29c-41db-bebf-060cb90f842e",
+            "colId": "4c1cad52-311f-435a-bd84-2e8285c61245",
+            "containerId": "",
+            "name": "GET",
+            "url": "localhost:3000/siswa",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-06-09T11:53:06.442Z",
+            "modified": "2024-06-09T11:53:16.787Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client\": \"isclient\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e8ca017c-35a7-42de-a4c8-b77615ca9171",
+            "colId": "4c1cad52-311f-435a-bd84-2e8285c61245",
+            "containerId": "",
+            "name": "POST",
+            "url": "localhost:3000/siswa",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-09T11:44:49.268Z",
+            "modified": "2024-06-09T13:43:33.949Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama_lengkap_siswa\": \"rizki\",\n  \"no_induk\": \"12345\",\n  \"alamat\": \"Cikampek\",\n  \"jenis_kelamin\": \"L\",\n  \"id_kelas\": 2,\n  \"tanggal_input\": \"2024-01-01 00:00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1b905739-aa7f-4490-b81c-af321dae2097",
+            "colId": "4c1cad52-311f-435a-bd84-2e8285c61245",
+            "containerId": "",
+            "name": "PUT",
+            "url": "localhost:3000/siswa",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-06-09T13:57:06.157Z",
+            "modified": "2024-06-09T13:57:14.050Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama_lengkap_siswa\": \"rizki\",\n  \"no_induk\": \"12345\",\n  \"alamat\": \"Cikampek\",\n  \"jenis_kelamin\": \"L\",\n  \"id_kelas\": 2,\n  \"tanggal_input\": \"2024-01-01 00:00\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
